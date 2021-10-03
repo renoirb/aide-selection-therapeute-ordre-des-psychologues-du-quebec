@@ -111,7 +111,7 @@ if (app) {
   )
 
   document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-  <h1>Aide à la sélection d’un psychologue de <a href="https://ordrepsy.qc.ca">l’Ordre des psychologues du Québec</a></h1>
+  <h1>Aide à la sélection d’un psychologue de <a href="https://www.ordrepsy.qc.ca/" target=_blank>l’Ordre des psychologues du Québec</a></h1>
   <div>
     <label for="membres">Voir un membre: </label>
     <select id="membres"><option selected>...</option>${options}</select>&nbsp;&nbsp;<span><data id="count">${filteredOptions.length}</data> à voir</span>

@@ -18,8 +18,10 @@ Je publie cet outil et le rend disponible sur le Web dans l’espoir qu’il pui
 Tout ce que vous faites sur cette application demeure dans votre navigateur web,
 les choix, les domaines de spécialité, les "peut être", les non.
 
-Pour commencer, vous n’avez qu’a ajuster l’adresse pour avoir une série de
-"domaines", et conservez cette adresse durant la période que vous voulez
-comparer.
+Pour commencer, vous n’avez qu’a ajuster l’adresse
+([renoirb.github.io/aide-selection-therapeute-ordre-des-psychologues-du-quebec](https://renoirb.github.io/aide-selection-therapeute-ordre-des-psychologues-du-quebec))
+pour avoir une série de "domaines" (e.g.
+[?domain=anxiete&domaine=stress](https://renoirb.github.io/aide-selection-therapeute-ordre-des-psychologues-du-quebec?domain=anxiete&domaine=stress)),
+et conservez cette adresse durant la période que vous voulez comparer.
 
 [www]: https://www.ordrepsy.qc.ca/
