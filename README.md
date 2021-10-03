@@ -25,3 +25,20 @@ pour avoir une série de "domaines" (e.g.
 et conservez cette adresse durant la période que vous voulez comparer.
 
 [www]: https://www.ordrepsy.qc.ca/
+
+## Comment utiliser
+
+### Recherche utilisant le site
+
+Le site de l’Ordre permet de choisir des critères et visualiser.
+
+Mais ne permet pas de garder un marque page, il est possible seulement si l’on connaît la façon dont les vues sont faites.
+
+https://user-images.githubusercontent.com/296940/135773733-336d0bf0-c64a-4cef-b253-76833b9f4a34.mp4
+
+
+### Utiliser cet outil
+
+Cet outil contient une liste des identifiants des membres de l’ordre, et permet de créer vos propres critères de sélection.
+
+https://user-images.githubusercontent.com/296940/135773514-4aa015ed-2a22-44d0-81e6-cb69d7566226.mp4
