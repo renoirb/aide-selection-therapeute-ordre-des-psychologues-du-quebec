@@ -1,0 +1,39 @@
+{
+  "name": "aide-selection-therapeute-ordre-des-psychologues-du-quebec",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Aide à la recherche d’un Psychologue accrédité à l’Ordre des Psychologues du Québec",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/renoirb/aide-selection-therapeute-ordre-des-psychologues-du-quebec.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Renoir Boulanger",
+    "email": "contribs@renoirboulanger.com",
+    "url": "https://renoirb.com"
+  },
+  "scripts": {
+    "build": "vite build",
+    "clean": "use-cross-env use-rimraf dist",
+    "deploy": "use-cross-env use-run-all clean deploy:*",
+    "deploy:step-0": "vite build --base=/aide-selection-therapeute-ordre-des-psychologues-du-quebec/",
+    "deploy:step-1": "push-dir --dir=dist --branch=gh-pages --local-branch-name=main --cleanup",
+    "dev": "vite",
+    "fix": "use-cross-env use-run-all package-json prettier",
+    "preinstall": "node -e \"if(process.env.npm_execpath.indexOf('pnpm') === -1) throw new Error('Dependencies must be installed with Yarn: https://pnpm.io/')\"",
+    "package-json": "use-cross-env conventions-code-formatter sort-package-json",
+    "prettier": "use-cross-env conventions-use-prettier '**/*.{ts,md,json,css,html}' --write",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "@renoirb/conventions-code-formatter": "~1.3.0",
+    "@renoirb/conventions-use-prettier": "~1.3.0",
+    "@renoirb/tools-bundling-helpers": "~1.2.1",
+    "@trivago/prettier-plugin-sort-imports": "~2.0.0",
+    "@types/node": "^14.0.0",
+    "push-dir": "^0.4.1",
+    "typescript": "^4.3.2",
+    "vite": "^2.6.0"
+  }
+}
